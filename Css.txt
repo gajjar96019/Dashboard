@@ -1,0 +1,124 @@
+.App {
+  text-align: center;
+}
+
+.icon h1 {
+  margin-left: 20px;
+}
+
+/******* Sidebar *******/
+
+.sidebar {
+  /* background-color: #343A40; */
+  /* color: #878f96; */
+  border-right: 1px solid black;
+}
+
+.user img {
+  width: 40px;
+  border-radius: 100%;
+}
+
+.textbox input {
+  width: 90%;
+  /* background-color: #3F474E; */
+  border: none;
+  border-radius: 4px 0 0 4px;
+}
+
+.textbox button {
+  /* background: #3F474E; */
+  border-radius: 0 4px 4px 0px;
+}
+
+.items span {
+  margin-right: 13px;
+}
+
+.widgets {
+  position: relative;
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+.widgets h5 {
+  position: absolute;
+  font-size: 11px;
+  font-weight: 800;
+  margin-top: 5px;
+  top: 0px;
+  right: 30px;
+  background-color: #DC3545;
+  color: #fff;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.calendar h5 {
+  background-color: #17A2B8;
+}
+
+
+/********* Inner **********/
+
+.inner .box-1 {
+  height: 150px;
+  background-color: #17A2B8;
+  position: relative;
+}
+
+.inner .box-1 .logo{
+  position: absolute;
+  top: 0;
+  right: 10px;
+}
+
+.logo-4 h1{
+  position: absolute;
+  transform: rotate(-90deg);
+  top: 10px;
+  right: 10px;
+}
+
+.inner .box-1 .logo h1{
+  transition: .5s;
+  color: rgba(0,0,0,.15);;
+}
+
+.inner .box-1:hover .logo h1{
+  font-size: 90px;
+}
+
+.inner .box-2 {
+  background-color: #28A745;
+}
+
+.inner .box-2 .info-2 {
+  background-color: #228E3B;
+}
+
+.inner .box-3 {
+  background-color: #FFC107;
+}
+
+.inner .box-3 .info-3 {
+  background-color: #D9A406;
+}
+
+.inner .box-4 {
+  background-color: #DC3545;
+}
+
+.inner .box-4 .info-4 {
+  background-color: #BB2D3B;
+}
+
+.inner .box-1 .info {
+  width: 100%;
+  background-color: #148A9D;
+  position: absolute;
+  padding: 3px 0;
+  border-radius: 0 0 5px 5px;
+  left: 0;
+  bottom: 0;
+}
